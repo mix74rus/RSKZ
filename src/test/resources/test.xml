@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OatiTests">
+    <parameter name="username" value="Anton.Novikov@fors.ru"/>
+    <parameter name="password" value="FynjyYJDBRJD1"/>
+    <test name="Monitoring">
+        <classes>
+            <class name="ru.fors.tests.MonitorTests"/>
+        </classes>
+    </test>
+</suite>
